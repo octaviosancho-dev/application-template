@@ -4,7 +4,7 @@ services:
       context: .
       dockerfile: TemplateAPI/Dockerfile
     ports:
-      - "7000:80"
+      - "7000:7000"
     environment:
       - ASPNETCORE_ENVIRONMENT=Development
 
@@ -14,7 +14,7 @@ services:
   #     context: .
   #     dockerfile: MyOtherAPI/Dockerfile
   #   ports:
-  #     - "7001:80"
+  #     - "7001:7001"
   #   environment:
   #     - ASPNETCORE_ENVIRONMENT=Development
 
